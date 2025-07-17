@@ -1,10 +1,116 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# =========================
+# 🔒 Security & Secrets
+# =========================
+.env
+.env.*    # e.g., .env.dev, .env.prod
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.token
+config.yaml
+credentials.json
+secrets.json
 
-# Virtual environments
-.venv
+# =========================
+# 🐍 Python Cache & Build
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.manifest
+*.spec
+
+# =========================
+# 📦 Virtual Environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+*.env/
+pip-log.txt
+
+# =========================
+# 🧪 Testing
+# =========================
+coverage.*
+.tox/
+.nox/
+*.cover
+.pytest_cache/
+
+# =========================
+# 🖥️ IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# 💾 Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# 📂 OS Generated
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# 📁 Logs & Temp Files
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# =========================
+# 📚 Data & Output Files
+# =========================
+*.csv
+*.tsv
+*.json
+*.db
+*.sqlite
+*.pkl
+*.model
+*.h5
+*.pt
+*.onnx
+
+# =========================
+# 🖼️ Model Checkpoints / Large Files
+# =========================
+checkpoints/
+models/
+weights/
+*.ckpt
+*.pt
+*.bin
+
+# =========================
+# 📄 PDF or Large Media
+# =========================
+*.pdf
+*.mp4
+*.mov
+*.zip
+*.tar.gz
+
+# =========================
+# ⚙️ Git LFS placeholder (optional if using Git LFS)
+# =========================
+.gitattributes
+
