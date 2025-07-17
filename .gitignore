@@ -37,6 +37,7 @@ ENV/
 env/
 *.env/
 pip-log.txt
+data/
 
 # =========================
 # 🧪 Testing
